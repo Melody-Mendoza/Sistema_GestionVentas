@@ -26,6 +26,30 @@ El sistema busca automatizar las operaciones de un mini supermercado, ofreciendo
   
 ---
 
+## 📚 Librerías Externas Utilizadas
+
+A continuación se enlistan las librerías externas utilizadas en el proyecto, junto con su propósito específico:
+
+| Librería                        | Uso en el Proyecto                                                                 |
+|---------------------------------|-------------------------------------------------------------------------------------|
+| `mysql-connector-java`         | Permite la conexión entre la aplicación Java y la base de datos MySQL mediante JDBC. |
+| `javax.mail` *(opcional)*      | Si se incluye, podría usarse para envío de correos (no parece estar en el proyecto por defecto, pero se ha visto en otros similares). |
+| `javax.swing`                  | Aunque es parte del JDK, se usa extensamente para la construcción de interfaces gráficas (formularios, botones, tablas, etc.). |
+| `java.sql`                     | Utilizada para ejecutar consultas SQL, manejar conexiones, `ResultSet`, `PreparedStatement`, etc. |
+
+### 📦 Dependencias Clave
+
+- **mysql-connector-java-X.X.X.jar**
+  - Asegúrate de incluir esta librería en tu proyecto para que funcione la conexión con MySQL.
+  - Se utiliza en la clase `ConexionBD.java` dentro del paquete `conexionbd`.
+
+---
+
+> 💡 **Nota**: Si agregaste más librerías al proyecto manualmente desde NetBeans (como para PDF, Excel o gráficos), por favor indícamelo y puedo añadirlas también.
+
+
+---
+
 ## 🚀 Funcionalidades Principales
 
 - 🧑 Registro automático de nuevos clientes con validación de nombre y correo.
