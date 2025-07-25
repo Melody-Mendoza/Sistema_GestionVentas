@@ -1,6 +1,7 @@
 # 🛒 Mini Super "Despensa del Corazón"
 ---
 **EQUIPO 11**
+
 Desarrollado por:
 
 - Melody Nathalie Mendoza Jimenez
@@ -259,12 +260,17 @@ A continuación se muestran algunas vistas clave del sistema:
 ![Confirmación de Registro]![Imagen de WhatsApp 2025-07-25 a las 07 07 54_f571f64b](https://github.com/user-attachments/assets/b3d6d8ce-a93e-4006-b88b-50a3a1d9215d)
 
 ### 🛒 Panel de Venta con Productos
-![Carrito de Compras]<img width="1349" height="985" alt="image" src="https://github.com/user-attachments/assets/053435b1-325d-4899-95ff-196f3b48c5ca" />
+![Carrito de Compras]<img width="1323" height="953" alt="image" src="https://github.com/user-attachments/assets/ddeb16d6-099d-421d-a51c-f153ef318422" />
+
 ### Realizando la Compra
-<img width="1325" height="966" alt="image" src="https://github.com/user-attachments/assets/d6a50a8e-10a5-44fa-ba2d-12f2f3e73264" />
+<img width="1316" height="952" alt="image" src="https://github.com/user-attachments/assets/422fa377-ac2a-47c1-a09a-ba9931d638bb" />
+<img width="1330" height="957" alt="image" src="https://github.com/user-attachments/assets/40b7cab9-2cef-4c83-9f90-6902f489fda8" />
+
+
 
 ### 📄 Ticket PDF generado
-![Ticket de Venta]<img width="627" height="808" alt="image" src="https://github.com/user-attachments/assets/1b19c11c-c898-4241-b4ea-61405d298ea2" />
+![Ticket de Venta]![Imagen de WhatsApp 2025-07-25 a las 12 58 01_61c59820](https://github.com/user-attachments/assets/aef8296e-9fee-4939-8ac1-a6797354abf3)
+
 
 ---
 
