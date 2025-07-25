@@ -43,6 +43,41 @@ A continuación se enlistan las librerías externas utilizadas en el proyecto, j
   - Asegúrarse de incluir esta librería en tu el para que funcione la conexión con MySQL.
   - Se utiliza en la clase `ConexionBD.java` dentro del paquete `conexionbd`.
 
+## 🔐 Librerías de los compañeros Integradas
+
+El proyecto incluye dos librerías desarrolladas por otros equipos para reforzar la seguridad y validación de usuarios en el sistema:
+
+### 1. 🛡️ Validación de Contraseñas (Equipo 7)
+
+Se utiliza una **librería externa para validar contraseñas** creada por el **Equipo 7**. Esta librería permite verificar que las contraseñas ingresadas cumplan con criterios de seguridad como:
+
+- Longitud mínima y máxima
+- Inclusión de mayúsculas, minúsculas, números y caracteres especiales
+- Evitar contraseñas débiles o comunes
+
+🔗 Créditos: Librería desarrollada por **Equipo 7**
+
+> Esta validación se aplica en el formulario de registro y actualización de usuarios, mejorando la seguridad del sistema.
+
+---
+
+### 2. 🤖 CAPTCHA de Seguridad (Equipo 2)
+
+El sistema también implementa un **CAPTCHA de verificación** desarrollado por el **Equipo 2**, el cual se presenta durante el inicio de sesión. Su función es evitar accesos automatizados (bots) mediante la resolución de un desafío visual simple.
+
+🔐 Este CAPTCHA se basa en:
+- Generación de códigos aleatorios
+- Validación visual por parte del usuario
+- Interfaz integrada con `JLabel`, `JTextField` y `JButton`
+
+🔗 Créditos: CAPTCHA desarrollado por **Equipo 2**
+
+> Esta medida agrega una capa adicional de seguridad durante el inicio de sesión de usuarios.
+
+---
+
+Ambas librerías han sido integradas respetando su estructura original y se da crédito completo a sus autores correspondientes.
+
 ---
 
 ## 🚀 Funcionalidades Principales
