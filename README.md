@@ -242,11 +242,12 @@ A continuación se muestran algunas vistas clave del sistema:
 
 ### Uso del CAPTCHA 
 ![Inicio de sesión](Imágenes/IMG-20250725-WA0026.jpg)
+
 - En esta pantalla se muestra el formulario completo de inicio de sesión. El usuario debe ingresar su correo, contraseña y resolver el CAPTCHA visual para poder acceder al sistema.
 
 ![Captcha](Imágenes/IMG-20250725-WA0024.jpg)
 
--Aquí se observa únicamente el componente del CAPTCHA generado por el sistema. Se muestra un código aleatorio que el usuario debe transcribir correctamente para continuar.
+- Aquí se observa únicamente el componente del CAPTCHA generado por el sistema. Se muestra un código aleatorio que el usuario debe transcribir correctamente para continuar.
 
 ![Captcha incorrecto](Imágenes/IMG-20250725-WA0025.jpg)
 
