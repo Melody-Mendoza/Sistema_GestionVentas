@@ -206,7 +206,7 @@ Operaciones básicas para registrar o recuperar clientes según correo electrón
 A continuación se muestran algunas vistas clave del sistema:
 
 ### Uso del CAPTCHA 
-
+![Inicio de sesión(imagenes/IMG-20250725-WA0024.jpg)
 
 
 ### 🧾 Ventana de Registro de Usuario
