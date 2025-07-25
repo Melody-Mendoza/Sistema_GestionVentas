@@ -40,13 +40,8 @@ A continuación se enlistan las librerías externas utilizadas en el proyecto, j
 ### 📦 Dependencias Clave
 
 - **mysql-connector-java-X.X.X.jar**
-  - Asegúrate de incluir esta librería en tu proyecto para que funcione la conexión con MySQL.
+  - Asegúrarse de incluir esta librería en tu el para que funcione la conexión con MySQL.
   - Se utiliza en la clase `ConexionBD.java` dentro del paquete `conexionbd`.
-
----
-
-> 💡 **Nota**: Si agregaste más librerías al proyecto manualmente desde NetBeans (como para PDF, Excel o gráficos), por favor indícamelo y puedo añadirlas también.
-
 
 ---
 
