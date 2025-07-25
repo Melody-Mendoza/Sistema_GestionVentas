@@ -242,16 +242,15 @@ A continuación se muestran algunas vistas clave del sistema:
 
 ### Uso del CAPTCHA 
 ![Inicio de sesión](Imágenes/IMG-20250725-WA0026.jpg)
-- Vista completa del inicio de sesion
+- En esta pantalla se muestra el formulario completo de inicio de sesión. El usuario debe ingresar su correo, contraseña y resolver el CAPTCHA visual para poder acceder al sistema.
 
 ![Captcha](Imágenes/IMG-20250725-WA0024.jpg)
-- Vista del captcha
+
+-Aquí se observa únicamente el componente del CAPTCHA generado por el sistema. Se muestra un código aleatorio que el usuario debe transcribir correctamente para continuar.
 
 ![Captcha incorrecto](Imágenes/IMG-20250725-WA0025.jpg)
 
-- Captcha incorrecto
-
-Muestra de la implementación del CAPTCHA para el inicio de sesion.
+- Esta captura muestra un intento fallido de inicio de sesión debido a la introducción incorrecta del CAPTCHA. El sistema detecta el error y muestra un mensaje de advertencia.
 
 ### 🧾 Ventana de Registro de Usuario
 ![Registro de Usuario]<img width="1245" height="790" alt="image" src="https://github.com/user-attachments/assets/34128b2d-c195-4af1-9d23-4db8bf17ea83" />
