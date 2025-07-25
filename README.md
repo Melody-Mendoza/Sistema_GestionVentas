@@ -207,8 +207,14 @@ A continuación se muestran algunas vistas clave del sistema:
 
 ### Uso del CAPTCHA 
 ![Inicio de sesión](Imágenes/IMG-20250725-WA0026.jpg)
-![Inicio de sesión](Imágenes/IMG-20250725-WA0024.jpg)
-![Inicio de sesión](Imágenes/IMG-20250725-WA0025.jpg)
+- Vista completa del inicio de sesion
+
+![Captcha](Imágenes/IMG-20250725-WA0024.jpg)
+- Vista del captcha
+
+![Captcha incorrecto](Imágenes/IMG-20250725-WA0025.jpg)
+
+- Captcha incorrecto
 
 Muestra de la implementación del CAPTCHA para el inicio de sesion.
 
