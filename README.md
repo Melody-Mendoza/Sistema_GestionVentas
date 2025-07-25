@@ -206,8 +206,11 @@ Operaciones básicas para registrar o recuperar clientes según correo electrón
 A continuación se muestran algunas vistas clave del sistema:
 
 ### Uso del CAPTCHA 
-![Inicio de sesión(imagenes/IMG-20250725-WA0024.jpg)
+![Inicio de sesión](Imágenes/IMG-20250725-WA0026.jpg)
+![Inicio de sesión](Imágenes/IMG-20250725-WA0024.jpg)
+![Inicio de sesión](Imágenes/IMG-20250725-WA0025.jpg)
 
+Muestra de la implementación del CAPTCHA para el inicio de sesion.
 
 ### 🧾 Ventana de Registro de Usuario
 ![Registro de Usuario]<img width="1245" height="790" alt="image" src="https://github.com/user-attachments/assets/34128b2d-c195-4af1-9d23-4db8bf17ea83" />
