@@ -223,7 +223,7 @@ Puedes usar estas credenciales para probar el sistema:
 Desarrollado por:
 
 - Melody Nathalie Mendoza Jimenez
-- Josue Saul Lopez Trujillo
+- Josue Saul Lopez Trujillo(https://github.com/Saul-LT)
 
 ---
 
