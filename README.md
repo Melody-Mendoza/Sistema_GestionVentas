@@ -1,4 +1,12 @@
 # 🛒 Mini Super "Despensa del Corazón"
+---
+**EQUIPO 11**
+Desarrollado por:
+
+- Melody Nathalie Mendoza Jimenez
+- Josue Saul Lopez Trujillo(https://github.com/Saul-LT)
+---
+
 
 **Sistema de Gestión de Ventas con Emisión de Tickets y Envío de Correos Electrónicos**
 
@@ -218,14 +226,7 @@ Puedes usar estas credenciales para probar el sistema:
 - Contraseña: `admin123`
 
 ---
-## 🧑‍💻 Autor
 
-Desarrollado por:
-
-- Melody Nathalie Mendoza Jimenez
-- Josue Saul Lopez Trujillo(https://github.com/Saul-LT)
-
----
 
 ## 📜 Licencia
 
