@@ -300,17 +300,44 @@ cd Proyecto_BDt
 5. Ejecutar la clase `Login.java` para iniciar el sistema.
 
 ---
+## 🔧 Modificación: Gestión de Productos desde el Panel del Administrador
 
-## 🔐 Credenciales de Ejemplo
-Puedes usar estas credenciales para probar el sistema:
+Con el fin de mejorar el control del inventario y facilitar el trabajo del personal encargado, se integró una nueva funcionalidad en el sistema: **una ventana exclusiva para el administrador**, desde la cual puede **agregar productos directamente a la base de datos** de manera intuitiva.
 
-- Usuario: `Cajero1@gmail.com`
-- Contraseña: `venta123`
+### 🧩 ¿Qué hace esta funcionalidad?
 
+- Permite al **administrador o almacenista** acceder a una interfaz visual amigable para registrar nuevos productos sin necesidad de interactuar directamente con MySQL.
+- Se encapsula toda la lógica de validación y registro desde un `JFrame` especializado.
+- Solo los usuarios con el rol `"almacenista"` o `"administrador"` pueden acceder a esta vista.
+
+### 🖥️ Ventana: `VentanaAgregarProducto.java`
+
+Esta ventana contiene los siguientes campos:
+
+- **Nombre del producto**
+- **Descripción**
+- **Precio unitario**
+- **Stock disponible**
+- **Categoría (Limpieza, Alimentos, etc.)**
+
+También incluye un botón `Guardar` que, al hacer clic, ejecuta la validación y guarda el producto en la base de datos.
+
+### 🔐 Control de acceso
+
+La clase `Login` detecta el rol del usuario tras autenticarlo y redirige al `FrameAlmacenista` (o administrador) si corresponde:
+
+```java
+if (rol.equalsIgnoreCase("almacenista") || rol.equalsIgnoreCase("administrador")) {
+    FrameAlmacenista ventanaAlmacen = new FrameAlmacenista(usuario.getId());
+    ventanaAlmacen.setVisible(true);
+    this.dispose();
+}
+
+```
 ---
 
-
-##  Licencia
+## Licencia
 
 Este proyecto está destinado exclusivamente para fines educativos y académicos.  
 © 2025 - Todos los derechos reservados.
+---
