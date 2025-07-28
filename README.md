@@ -1,11 +1,11 @@
-# 🛒 Mini Super "Despensa del Corazón"
+# 🛒Sistema de Punto de Venta- Mini Super "Despensa del Corazón"
 ---
 **EQUIPO 11**
 
-Desarrollado por:
-
-- Melody Nathalie Mendoza Jimenez
-- Josue Saul Lopez Trujillo(https://github.com/Saul-LT)
+| Nombre                                      | Rol                                                                                   |
+|--------------------------------------------|----------------------------------------------------------------------------------------|
+| **Melody Nathalie Mendoza Jiménez**        | 🧠 Programadora Lógica – Responsable del funcionamiento interno, conexión a base de datos y generación de tickets PDF. |
+| **[Josué Saúl López Trujillo](https://github.com/Saul-LT)** | 🎨 Diseñador UI/UX – Encargado del diseño visual, experiencia de usuario e interfaces con Java Swing. |
 ---
 
 
@@ -34,7 +34,6 @@ A continuación se enlistan las librerías externas utilizadas en el proyecto, j
 | Librería                        | Uso en el Proyecto                                                                 |
 |---------------------------------|-------------------------------------------------------------------------------------|
 | `mysql-connector-java`         | Permite la conexión entre la aplicación Java y la base de datos MySQL mediante JDBC. |
-| `javax.mail` *(opcional)*      | Si se incluye, podría usarse para envío de correos (no parece estar en el proyecto por defecto, pero se ha visto en otros similares). |
 | `javax.swing`                  | Aunque es parte del JDK, se usa extensamente para la construcción de interfaces gráficas (formularios, botones, tablas, etc.). |
 | `java.sql`                     | Utilizada para ejecutar consultas SQL, manejar conexiones, `ResultSet`, `PreparedStatement`, etc. |
 
@@ -44,7 +43,7 @@ A continuación se enlistan las librerías externas utilizadas en el proyecto, j
   - Asegúrarse de incluir esta librería en tu el para que funcione la conexión con MySQL.
   - Se utiliza en la clase `ConexionBD.java` dentro del paquete `conexionbd`.
 
-## 🔐 Librerías de los compañeros Integradas
+## Librerías Integradas
 
 El proyecto incluye dos librerías desarrolladas por otros equipos para reforzar la seguridad y validación de usuarios en el sistema:
 
@@ -81,7 +80,7 @@ Ambas librerías han sido integradas respetando su estructura original y se da c
 
 ---
 
-## 🚀 Funcionalidades Principales
+##  Funcionalidades Principales
 
 - 🧑 Registro automático de nuevos clientes con validación de nombre y correo.
 - 📧 Verificación de existencia de cliente mediante su correo electrónico.
@@ -99,7 +98,7 @@ Ambas librerías han sido integradas respetando su estructura original y se da c
 
 ---
 
-## 🛠️ Tecnologías y Herramientas
+##  Tecnologías y Herramientas
 
 - **Lenguaje**: Java SE 8+
 - **Interfaz gráfica**: Java Swing
@@ -110,7 +109,7 @@ Ambas librerías han sido integradas respetando su estructura original y se da c
 
 ---
 
-## 🏛️ Arquitectura del Proyecto
+##  Arquitectura del Proyecto
 
 El sistema está dividido en las siguientes capas:
 
@@ -173,7 +172,7 @@ final String contraseña = "contraseña_de_aplicacion"; // Generada desde tu cue
 ```
 ---
 
-## ✨ Funcionalidades Principales
+##  Funcionalidades Principales
 
 - 🔍 **Verificación automática de cliente:** si el correo no existe, solicita nombre y lo registra.
 - 🛒 **Gestión de carrito:** agregar productos y calcular total.
@@ -271,6 +270,16 @@ A continuación se muestran algunas vistas clave del sistema:
 ### 📄 Ticket PDF generado
 ![Ticket de Venta]![Imagen de WhatsApp 2025-07-25 a las 12 58 01_61c59820](https://github.com/user-attachments/assets/aef8296e-9fee-4939-8ac1-a6797354abf3)
 
+### Historial de los clientes
+![Historial clientes]!<img width="1259" height="866" alt="image" src="https://github.com/user-attachments/assets/dfda30e9-6aa1-4ba0-913b-7d10bae8bc38" />
+
+![Historial clientes(editar datos del cliente)]! <img width="1249" height="860" alt="image" src="https://github.com/user-attachments/assets/8c6aaab0-1edc-4420-bb5f-a9436b91610b" />
+
+![Historial clientes(mostrar las compras del cliente)]!<img width="933" height="678" alt="image" src="https://github.com/user-attachments/assets/e926e50e-70b3-473d-a47a-eca68e5b5dd6" />
+
+
+
+
 
 ---
 
@@ -295,13 +304,13 @@ cd Proyecto_BDt
 ## 🔐 Credenciales de Ejemplo
 Puedes usar estas credenciales para probar el sistema:
 
-- Usuario: `admin@despensa.com`
-- Contraseña: `admin123`
+- Usuario: `Cajero1@gmail.com`
+- Contraseña: `venta123`
 
 ---
 
 
-## 📜 Licencia
+##  Licencia
 
 Este proyecto está destinado exclusivamente para fines educativos y académicos.  
 © 2025 - Todos los derechos reservados.
