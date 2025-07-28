@@ -55,7 +55,7 @@ Se utiliza una **librería externa para validar contraseñas** creada por el **E
 - Inclusión de mayúsculas, minúsculas, números y caracteres especiales
 - Evitar contraseñas débiles o comunes
 
-🔗 Créditos: Librería desarrollada por **Equipo 7**
+🔗 Créditos: **[Librería desarrollada por **Equipo 7**](https://github.com/Marco1120/Creacion-Libreria)**
 
 > Esta validación se aplica en el formulario de registro y actualización de usuarios, mejorando la seguridad del sistema.
 
@@ -70,7 +70,7 @@ El sistema también implementa un **CAPTCHA de verificación** desarrollado por 
 - Validación visual por parte del usuario
 - Interfaz integrada con `JLabel`, `JTextField` y `JButton`
 
-🔗 Créditos: CAPTCHA desarrollado por **Equipo 2**
+🔗 Créditos: **[CAPTCHA desarrollado por **Equipo 2**](https://github.com/FanyBr07/ComponenteVisual)**
 
 > Esta medida agrega una capa adicional de seguridad durante el inicio de sesión de usuarios.
 
